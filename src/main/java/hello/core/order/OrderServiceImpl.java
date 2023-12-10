@@ -26,4 +26,9 @@ public class OrderServiceImpl implements OrderService{
 
         return new Order(memberId, itemName, itemPrice, discountPrice); //주문을 만들어서 반환
     }
+
+    // 테스트 용도
+    public MemberReposiotry getMemberReposiotry() {
+        return memberReposiotry;
+    }
 }
